@@ -17,19 +17,19 @@ Cross-platform PowerShell script that scans all files in the input directory and
 Use the same command on Windows and Linux:
 
 ```bash
-pwsh -File ./test-task-file-report/report_largest_extensions.ps1 -InputDirectory ./input -OutputDirectory ./output
+pwsh -File ./report_largest_extensions.ps1 -InputDirectory ./input -OutputDirectory ./output
 ```
 
 Windows example:
 
 ```powershell
-pwsh -File .\test-task-file-report\report_largest_extensions.ps1 -InputDirectory C:\Data\Input -OutputDirectory C:\Data\Output
+pwsh -File .\report_largest_extensions.ps1 -InputDirectory C:\Data\Input -OutputDirectory C:\Data\Output
 ```
 
 Linux example:
 
 ```bash
-pwsh -File ./test-task-file-report/report_largest_extensions.ps1 -InputDirectory /data/input -OutputDirectory /data/output
+pwsh -File ./report_largest_extensions.ps1 -InputDirectory /data/input -OutputDirectory /data/output
 ```
 
 ## Output
